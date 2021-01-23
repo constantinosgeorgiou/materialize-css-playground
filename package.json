@@ -1,0 +1,40 @@
+{
+  "name": "materialize-css-playground",
+  "version": "1.0.0",
+  "description": "Playing around with various MaterializeCSS components, properties, etc.",
+  "main": "app.js",
+  "scripts": {
+    "dev": "nodemon app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/constantinosgeorgiou/materialize-css-playground.git"
+  },
+  "keywords": [
+    "materializecss",
+    "css",
+    "material",
+    "design",
+    "node",
+    "express",
+    "ejs"
+  ],
+  "author": "Constantinos Georgiou",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/constantinosgeorgiou/materialize-css-playground/issues"
+  },
+  "homepage": "https://github.com/constantinosgeorgiou/materialize-css-playground#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.4",
+    "webpack": "^4.44.2",
+    "webpack-cli": "^3.3.12"
+  },
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "ejs": "^3.1.5",
+    "express": "^4.17.1",
+    "materialize-css": "^1.0.0-rc.2"
+  }
+}
